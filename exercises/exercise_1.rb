@@ -24,3 +24,5 @@ Store.create(
   womens_apparel: false)
 
 puts "\nNumber of stores: #{Store.count}"
+
+pp Store.all
